@@ -10,7 +10,7 @@ body {
   font-family: 'Prompt', sans-serif;
  
   /* font-size: clamp(20px, 4vmin, 26px); */
-  font-size: min(5vmin, 24px);
+  font-size: min(6vmin, 24px);
 }
 
 

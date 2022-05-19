@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Footer from '../components/Footer'
+import Image from 'next/image'
 
 
 const FLink = ({ url, newTab, ...props }) => (
@@ -18,7 +19,7 @@ export default function Home() {
       <Head>
         <title>FREDDIES</title>
         <meta name="freddies home" content="a place for everyone" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable="no"' />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -34,7 +35,12 @@ export default function Home() {
 
       <div className={styles.text_wrapper}>
         <div className={styles.freddiesTitle}>
-          FREDDIES
+          <Image
+            src="/freddiesLogo.png"
+            layout="fill"
+            objectFit="contain"
+          />
+
         </div>
         <FLink url={"https://open.spotify.com/album/7uB2ykT1KK79AQqjWxTxnr?si=5NL4fA1PTTGdZAQK33EH0w"} newTab={true} >
           Stream SPACESTAR
