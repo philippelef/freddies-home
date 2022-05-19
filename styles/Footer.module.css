@@ -17,9 +17,9 @@
 }
 
 .content {
-    height: 1.4em;
-    max-height: 24px;
-    width: 7em;
+    height: 1.5em;
+    max-height: 30px;
+    width: 10em;
     display: flex;
     align-self: center;
     align-items: center;
@@ -27,4 +27,14 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     /* margin: 0 -3rem; */
+}
+        
+
+.element svg {
+    transition: all 0.15s ease-in-out;
+    transform-origin: bottom;
+}
+
+ .element:hover  svg {
+    transform: scale(1.10);
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from "../../styles/Footer.module.css"
 
 const Instagram = (props) => {
     return (
         <Link href="https://www.instagram.com/thefreddiess" passHref>
-            <a target="_blank" style={{ height: "100%" }}>
+            <a target="_blank" style={{ height: "100%" }} className={styles.element}>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     height="100%"
                     color="green"
