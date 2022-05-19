@@ -1,21 +1,7 @@
-/* eslint-disable react/jsx-key */
-import Link from "next/link"
 import FooterStyle from "../styles/Footer.module.css"
 import Twitter from "./LogosSVG/Twitter";
 import Instagram from "./LogosSVG/Instagram"
 import Youtube from "./LogosSVG/Youtube";
-
-
-const FooterItem = ({ href, text, target }) => {
-    return (
-        <Link href={href} >
-            <a className={FooterStyle.Text} target={target}>
-                {text}
-            </a>
-        </Link>
-    )
-}
-
 
 const Footer = () => {
 

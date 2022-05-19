@@ -1,13 +1,12 @@
-/* eslint-disable react/jsx-key */
 import React from 'react'
 import Link from 'next/link'
 
 const Instagram = (props) => {
     return (
         <Link href="https://www.instagram.com/thefreddiess" passHref>
-            <a target="_blank">
+            <a target="_blank" style={{ height: "100%" }}>
                 <svg xmlns="http://www.w3.org/2000/svg"
-                    height="25px"
+                    height="100%"
                     color="green"
                     viewBox="2.7 2.7 25 25"
                     fill={props.color}>

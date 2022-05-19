@@ -1,9 +1,19 @@
 html,
 body {
+  min-height: 100vh;
+  /* min-height: 100em; */
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
   padding: 0;
   margin: 0;
   font-family: 'Prompt', sans-serif;
+ 
+  /* font-size: clamp(20px, 4vmin, 26px); */
+  font-size: min(5vmin, 24px);
 }
+
+
 
 a {
   color: inherit;

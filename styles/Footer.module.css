@@ -1,16 +1,10 @@
 .footer {
-    position: absolute;
-    bottom: 30px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
     color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    height: 30px;
 }
 
 .SubSection {
-    height: 30px;
     display: flex;
     align-content: center;
     align-items: center;
@@ -23,8 +17,9 @@
 }
 
 .content {
-    height: 30px;
-    width: 200px;
+    height: 1.4em;
+    max-height: 24px;
+    width: 7em;
     display: flex;
     align-self: center;
     align-items: center;

@@ -1,14 +1,13 @@
-/* eslint-disable react/jsx-key */
 import React from 'react'
 import Link from 'next/link'
 
 const Twitter = (props) => {
     return (
         <Link href="https://twitter.com/freddies_mafia" passHref>
-            <a target="_blank">
+            <a target="_blank" style={{ height: "100%" }}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    height="25px"
+                    height="100%"
                     fill={props.color}
                     viewBox="4 6 24 20"
                 >
