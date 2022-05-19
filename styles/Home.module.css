@@ -1,8 +1,8 @@
 .app {
   min-height: 100vh;
-  min-height: -moz-available;
+  /* min-height: -moz-available; */
   min-height: -webkit-fill-available;
-  min-height: fill-available;
+  /* min-height: fill-available; */
   width: 100vw;
   position: absolute;
   overflow: auto;
