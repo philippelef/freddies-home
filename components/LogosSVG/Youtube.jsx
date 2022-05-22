@@ -5,7 +5,8 @@ import styles from "../../styles/Footer.module.css"
 const Youtube = (props) => {
     return (
         <Link href="https://www.youtube.com/channel/UC6OibzTCTjttrJ2FeQBGa8A" passHref>
-            <a target="_blank" style={{ height: "100%" }} className={styles.element}>
+            <a target="_blank" style={{ height: "100%" }} className={styles.element}
+                aria-label="Youtube">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     height="100%"
                     fill={props.color}

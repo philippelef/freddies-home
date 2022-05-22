@@ -1,5 +1,3 @@
-import * as React from "react"
-
 const FreddiesSVG = (props) => (
     <svg
         height="0.7em"

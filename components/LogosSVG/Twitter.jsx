@@ -5,7 +5,8 @@ import styles from "../../styles/Footer.module.css"
 const Twitter = (props) => {
     return (
         <Link href="https://twitter.com/freddies_mafia" passHref>
-            <a target="_blank" style={{ height: "100%" }} className={styles.element}>
+            <a target="_blank" style={{ height: "100%" }} className={styles.element}
+                aria-label="Twitter">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="100%"
