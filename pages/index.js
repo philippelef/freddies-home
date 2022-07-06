@@ -65,12 +65,8 @@ export default function Home() {
 
         <div className={styles.text_wrapper}>
           <div className={styles.freddiesTitle}>
-            <Image
+            <img
               src="/freddiesLogo.png"
-              layout="fill"
-              objectFit="contain"
-              alt='Freddies Logo'
-              priority='true'
             />
 
           </div>
